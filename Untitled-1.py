@@ -10,8 +10,6 @@
 Минусы:
 	- Возможно есть баги
 	- Плохой код и нет оптимизации
-
-Итог: Если хотите получть 5 по информатики, то качайте, если хотите взять за основу, то бросайте эту затею.
 """
 
 #------------------------[Подгрузка нужных библиотек]------------------------#
@@ -35,10 +33,10 @@ def clear():
 print ("salam brat, kak sam? nizhe kuda tykat napisano")
 #------------------------[Главный код]------------------------#
 while en == 1: #Цикл
-	print("calc - калькулятор")
-	print("disc - дискриминант")
-	print("clear - очистить консоль")
-	print("help - помощь")
+	print("calc - suetah command")
+	print("disc - znak")
+	print("clear - pri mne udolyai ya skazal")
+	print("help - pomosh")
 	line = input("")
 	
 #------------------------[Код калькулятора]------------------------#	
@@ -72,7 +70,7 @@ while en == 1: #Цикл
 			try:
 				b = float(input("Введи b: "))
 			except ValueError:
-				print("<WARNING> Сработала защита от краша!")
+				print("<WARNING> Brat Harosh eye")
 				continue
 			if op == "+":
 				print(int(a) + int(b))
